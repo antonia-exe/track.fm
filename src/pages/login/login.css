@@ -1,0 +1,40 @@
+/* src/pages/Login/Login.css */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-color: #000;
+    margin: 0;
+  }
+  
+  .login-box {
+    background-color: #fff; 
+    width: 90%;
+    max-width: 1300px;
+    height: 60%;
+    max-height: 900px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .login-welcome {
+    font-size: 1.16rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0 0 1.1rem;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 5px;
+    text-align: left;
+    width: 90%;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 5%;
+    margin-bottom: 10px;
+  }
+  
